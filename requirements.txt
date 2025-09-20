@@ -1,0 +1,6 @@
+torch
+sentence-transformers
+faiss-cpu
+pypdf2
+transformers
+flask

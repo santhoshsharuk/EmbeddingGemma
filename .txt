@@ -1,0 +1,9 @@
+student_helper/
+│── data/                  # PDF files go here
+│── embeddings/            # Store FAISS index & chunk metadata
+│── embedder.py            # EmbeddingGemma wrapper
+│── pdf_utils.py           # PDF extraction & splitting
+│── vector_store.py        # FAISS index management
+│── qa_system.py           # Search + LLM answer
+│── app.py                 # Optional Flask app for upload & ask
+│── requirements.txt       # Python dependencies
